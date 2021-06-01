@@ -1,0 +1,164 @@
+.avatar{
+    width: 200px;
+    left: 200px;
+    border-radius: 50%;
+}
+.avatar-camera{
+    width: 50px;
+    left: 5s0px;
+    border-radius: 50%;
+}
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #000;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -20px;
+}
+
+.carousel__siguiente {
+	right: -20px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 20px;
+	height: 4px;
+	background: #000;
+	opacity: .2;
+	border-radius: 20;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+/***LOGIN***/
+.Login{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-image: url('../img/edificio4.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.contenedor{
+	width: 100%;
+	padding: 15px;
+
+}
+.formulario{
+	background-color: #fff;
+	margin-top: 150px;
+	padding: 3px;
+}
+.h1{
+	text-align: center;
+	color: #1a2537;
+	font-size: 30px;
+}
+input[type="email"],
+input[type="password"]{
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+
+}
+.input-contenedor{
+	margin-bottom: 15px;
+	border: 1px solid #aaa;
+	
+
+}
+.icon{
+	min-width: 20px;
+	text-align: center;
+	color: #1a2537;
+
+}
+.button{
+	border: none;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	background: #1a2537;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+	background: cadetblue;
+}
+.link{
+	text-decoration: none;
+	color: #1a2537;
+	font-weight: 600;
+	text-align: center;
+
+}
+.link:hover{
+	color: cadetblue;	
+}
+@media(min-width:768px)
+{
+	.formulario{
+		margin: auto;
+		width: 500px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		border-radius: 2%;
+
+
+	}
+}
+.avatarlogin{
+    width: 120px;
+    left: 120px;
+    border-radius: 50%;
+}
